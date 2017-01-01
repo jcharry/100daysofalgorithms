@@ -1,0 +1,40 @@
+/*
+ * styles.css
+ * Copyright (C) 2016 jamiecharry
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+body {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#number-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5rem;
+}
+
+.numbers {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    padding: 0.3rem;
+    font-size: 11pt;
+}
+

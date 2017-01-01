@@ -1,0 +1,9 @@
+{
+    "parser": "babel-eslint",
+    "extends": ["google"],
+    "rules": {
+        "arrow-parens": ["error", "as-needed"],
+        "require-jsdoc": "off",
+        "max-len": ["error", 120]
+    }
+}
