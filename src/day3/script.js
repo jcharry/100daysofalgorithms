@@ -2,41 +2,22 @@ import * as d3 from 'd3';
 window.d3 = d3;
 require('./styles.scss');
 
-// Selection Sort!
-function swap(arr, i, j) {
-    let tmp = arr[i];
-    arr[i] = arr[j];
-    arr[j] = tmp;
-    return arr;
-}
-
-function minInSubArray(arr, start) {
-    let min = {val: arr[start], idx: start};
-    for (let i = start + 1; i < arr.length; i++) {
-        let val = arr[i];
-        if (val < min.val) {
-            min.val = val;
-            min.idx = i;
-        }
-    }
-    return min;
-}
-
-function selectionSort(arr) {
-    // Start by finding minimum value in the array
-    let min;
-    for (let i = 0; i < arr.length; i++) {
-        min = minInSubArray(arr, i);
-        swap(arr, i, min.idx);
-        steps.push({
-            arrState: arr.slice(0),
-            currentIdx: i,
-            swapIdx: min.idx
-        });
-    }
-}
-
+// Insertion Sort
 let steps = [];
+function insert(array, rightIndex, value) {
+    let j;
+    for (j = rightIndex; j >= 0 && array[j] > value; j--) {
+        array[j + 1] = array[j];
+        steps.push({arrState: array.slice(0), currentIdx: j});
+    }
+    array[j + 1] = value;
+};
+
+function insertionSort(array) {
+    for (let i = 1; i < array.length; i++) {
+        insert(array, i - 1, array[i]);
+    }
+}
 
 let margin = {top: 50, right: 50, bottom: 50, left: 50},
 // let margin = {top: 0, right: 0, bottom: 0, left: 0},
@@ -51,12 +32,16 @@ let g = svg.append('g')
     .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
 // let interp = d3.interpolateHsl('#ff8400', '#05ffc1');
-let arrLen = 100;
+let arrLen = 50;
 let a = d3.shuffle(d3.range(arrLen));
 
 let colorScale = d3.scaleLinear()
     .domain([0, arrLen])
-    .range(['#ff8400', '#0544ff']);
+    .range(['#fff200', '#044700']);
+
+let heightScale = d3.scaleLinear()
+    .domain([0, arrLen])
+    .range([30, 600]);
 
 function update(data, cb) {
     // Data join
@@ -65,8 +50,8 @@ function update(data, cb) {
 
     // Transition
     let t = d3.transition()
-        .duration(500)
-        .delay((d, i) => i * 100);
+        .duration(100);
+        // .delay((d, i) => i * 100);
 
     // Exit
     sortable.exit()
@@ -81,9 +66,8 @@ function update(data, cb) {
         .style('stroke', (d, i) => {
             if (i === data.currentIdx) {
                 return 'red';
-            } else if (i === data.swapIdx) {
-                return 'white';
             }
+            // return 'lightgrey';
         })
         .transition(t)
         .attr('x', (d, i) => i * (width / arrLen))
@@ -98,11 +82,14 @@ function update(data, cb) {
         .append('rect')
         .classed('sortable', true)
         .attr('x', (d, i) => i * (width / arrLen))
-        .attr('y', 0)
-        .attr('height', height)
+        .attr('y', d => {
+            return height / 2 - heightScale(d) / 2;
+        })
+        .attr('height', d => heightScale(d))
         .attr('width', width / arrLen)
         .style('fill', d => {
             return colorScale(d);
+            // return 'white';
         })
         .transition(t)
         .on('end', (d, i) => {
@@ -118,7 +105,9 @@ function update(data, cb) {
 
 
 function main() {
-    selectionSort(a);
+    console.log(a);
+    insertionSort(a);
+    console.log(a);
     console.log(steps);
     update(steps[0]);
 

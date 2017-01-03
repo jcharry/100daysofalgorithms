@@ -4,6 +4,8 @@
     "rules": {
         "arrow-parens": ["error", "as-needed"],
         "require-jsdoc": "off",
-        "max-len": ["error", 120]
+        "max-len": ["error", 120],
+        "comma-dangle": ["error", "never"],
+        "one-var": "off"
     }
 }
