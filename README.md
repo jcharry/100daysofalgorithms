@@ -1,5 +1,5 @@
 #100 Days of Algorithms#
-Follow along [here](https://100daysofalgorithms.tumblr.com/)
+See everything in one place on [this here tumblr blog](https://100daysofalgorithms.tumblr.com/).
 
 - Day 1 - Binary Search
 - Day 2 - Selection Sort
