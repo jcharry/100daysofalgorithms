@@ -27,7 +27,7 @@ Navigate to `localhost:1234` in a browser, and navigate to the build folder.
 
 ##To Edit##
 Instead of running ```$ npm run build``` above, run
-```npm run dev```, start the server in a new terminal window, and navigate to
+```$ npm run dev```, start the server in a new terminal window, and navigate to
 localhost:1234.
 
 Any changes made to src files will trigger a re-build of generated files.  Just
