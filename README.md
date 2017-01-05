@@ -5,6 +5,7 @@ See everything in one place on [this here tumblr blog](https://100daysofalgorith
 - Day 2 - Selection Sort
 - Day 3 - Insertion Sort
 - Day 4 - Merge Sort
+- Day 5 - Quick Sort
 
 ##Downloading##
 If you'd like to run these examples yourself, run the following to clone the
