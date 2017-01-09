@@ -1,0 +1,67 @@
+/*
+ * styles.css
+ * Copyright (C) 2017 jamiecharry
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+body {
+    // background: lightgrey;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+svg {
+    background: black;
+    width: 600px;
+    height: 600px;
+}
+
+.main-line {
+    line-height: 10px;
+    stroke: white;
+    stroke-width: 5px;
+    stroke-linecap: round;
+}
+
+.point {
+    stroke: white;
+    stroke-width: 2px;
+}
+
+.pointa {
+    stroke-width: 1;
+    stroke: darkgrey;  
+}
+
+.pointb {
+    stroke: lightgrey;
+    stroke-width: 1;
+}
+.pointa1 {
+    stroke: darkgreen;
+    stroke-linecap: round;
+    // stroke-width: 1;
+}
+.pointb1 {
+    stroke: lightgreen;
+    stroke-linecap: round;
+}
+.solution {
+    stroke-width: 1;
+    stroke: red;
+    stroke-dasharray: 10px;
+}
+
+.region-line {
+    // stroke: lightgrey;
+    // stroke-width: 0.5;
+}
+
+.active {
+    fill: rgba(60, 60, 60, 0.5);
+}
+.region-a, .region-b, .region-ab, .region-ba {
+    transition: fill 0.5s ease-in-out;
+}

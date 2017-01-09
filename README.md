@@ -6,6 +6,10 @@ See everything in one place on [this here tumblr blog](https://100daysofalgorith
 - Day 3 - Insertion Sort
 - Day 4 - Merge Sort
 - Day 5 - Quick Sort
+- Day 6 - Pigeonhole Sort
+- Day 7 - Closest Point on Line
+- Day 8 - Closest Pair of Points
+- Day 9 - Convex Hull (Jarvis March)
 
 ##Downloading##
 If you'd like to run these examples yourself, run the following to clone the
