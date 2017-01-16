@@ -10,8 +10,21 @@ See everything in one place on [this here tumblr blog](https://100daysofalgorith
 - Day 7 - Closest Point on Line
 - Day 8 - Closest Pair of Points
 - Day 9 - Convex Hull (Jarvis March)
+- Day 10 - Point Inside a Polygon
+- Day 11 - Line Intersections
+- Day 12 - Sweepline Line Intersections
+- Day 13 - Separating Axis Theorem
+- Day 14 - Binary Search Tree Construction
+- Day 15 - Level Order Traversal
+- Day 16 - Depth First Traversal (Pre-order)
+- Day 17 - Depth First Traversal (Post-order)
+- Day 18 - Depth First Traversal (In-order)
 
 ##Downloading##
+**Please Note:** *This project was not about clean code, it was about producing new
+work everyday.  As a result, little time was spent on code cleanup and
+optimization.*
+
 If you'd like to run these examples yourself, run the following to clone the
 repo, install dependencies, and build the output files
 ```

@@ -1,0 +1,42 @@
+/*
+ * styles.css
+ * Copyright (C) 2017 jamiecharry
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+body {
+    background: #e4d8d8;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#number-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5rem;
+}
+
+.dequeue {
+    stroke: green;
+    stroke-width: 5px;
+}
+
+circle {
+    // fill: red;
+}
+text {
+    fill: black;
+    stroke: transparent;
+}
+
+line {
+    // stroke: red;
+    stroke-width: 2px;
+}
+
+.active {
+    stroke-width: 5px;
+    stroke: red;
+}

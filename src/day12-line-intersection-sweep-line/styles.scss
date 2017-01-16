@@ -1,0 +1,47 @@
+/*
+ * styles.css
+ * Copyright (C) 2017 jamiecharry
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+body {
+    background: #1d1d1d;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#number-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5rem;
+}
+
+circle {
+    fill: rgba(255, 255, 255, 0.5);
+}
+
+.segment {
+    // stroke: rgba(255, 255, 255, 0.5);
+    stroke-width: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.border {
+    stroke: white;
+    fill: transparent;
+}
+
+.point {
+    fill: rgba(255, 255, 255, 0.5);
+}
+
+.sweepline {
+    stroke: red;
+}
+
+.active {
+    stroke: red;
+    stroke-width: 3;
+}

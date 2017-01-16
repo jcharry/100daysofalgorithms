@@ -1,0 +1,61 @@
+/*
+ * styles.css
+ * Copyright (C) 2017 jamiecharry
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+body {
+    background: #1d1d1d;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#number-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5rem;
+}
+
+circle {
+    fill: rgba(255, 255, 255, 0.5);
+}
+
+.axes-p1 {
+    stroke: darkgreen;
+    stroke-width: 1px;
+}
+
+.axes-p2 {
+    stroke: darkcyan;
+    stroke-width: 1px;
+}
+
+.colliding {
+    stroke: red;
+    stroke-width: 3px;
+}
+
+.p1 {
+    fill: darkgreen;
+}
+.p2 {
+    fill: darkcyan;
+}
+
+.prj-p1 {
+    stroke: lightgreen;
+    stroke-width: 3px;
+}
+.prj-p2 {
+    stroke: lightcyan;
+    stroke-width: 3px;
+}
+
+.axis {
+    // stroke: rgba(255, 255, 255, 0.5);
+    stroke-width: 1;
+    stroke: red;
+    transition: opacity 0.3s ease-in-out;
+}

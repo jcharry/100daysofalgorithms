@@ -18,16 +18,25 @@ body {
     margin: 0 5rem;
 }
 
+.dequeue {
+    stroke: green;
+    stroke-width: 5px;
+}
+
 circle {
-    // fill:red;
+    // fill: red;
+}
+text {
+    fill: black;
+    stroke: transparent;
 }
 
-.segment {
+line {
+    // stroke: red;
+    stroke-width: 2px;
+}
+
+.active {
+    stroke-width: 5px;
     stroke: red;
-    stroke-width: 1;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.point {
-
 }
