@@ -19,6 +19,7 @@ See everything in one place on [this here tumblr blog](https://100daysofalgorith
 - Day 16 - Depth First Traversal (Pre-order)
 - Day 17 - Depth First Traversal (Post-order)
 - Day 18 - Depth First Traversal (In-order)
+- Day 19 - BST to Min-Heap
 
 ##Downloading##
 **Please Note:** *This project was not about clean code, it was about producing new

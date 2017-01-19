@@ -1,4 +1,5 @@
 let HtmlWebpackPlugin = require('html-webpack-plugin');
+var BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 let path = require('path');
 let fs = require('fs');
 
@@ -24,10 +25,9 @@ let config = srcDirectories.filter(dirname => {
                 { test: /\.scss$/, exclude: /node_modules/, loader: 'style-loader!css-loader!sass-loader' }
             ]
         },
-        plugins: [new HtmlWebpackPlugin({
-            filename: 'index.html',
-            template: path.resolve(`./src/${dirname}/index.html`)
-        })]
+        plugins: [
+            new HtmlWebpackPlugin({filename: 'index.html', template: path.resolve(`./src/${dirname}/index.html`)}),
+        ]
     }
 });
 
