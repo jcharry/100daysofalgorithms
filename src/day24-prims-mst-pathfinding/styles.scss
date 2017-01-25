@@ -1,0 +1,30 @@
+/*
+ * styles.css
+ * Copyright (C) 2017 jamiecharry
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+body {
+    // background: #efefef;
+    // background: black;
+    background: #272727;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.line-light {
+    stroke: rgba(30, 30, 30, 0.1);
+    stroke-width: 1px;
+}
+
+
+.parent-line {
+    stroke: red;
+    stroke-width: 30px;
+    stroke-linecap: square;
+}
+.robot {
+    fill: blue;
+}

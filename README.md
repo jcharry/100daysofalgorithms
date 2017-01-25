@@ -20,6 +20,12 @@ See everything in one place on [this here tumblr blog](https://100daysofalgorith
 - Day 17 - Depth First Traversal (Post-order)
 - Day 18 - Depth First Traversal (In-order)
 - Day 19 - BST to Min-Heap
+- Day 20 - Prim's Minimum Spanning Tree
+- Day 21 - Prim's on a Regular Grid
+- Day 22 - Prim's on a Dense Grid
+- Day 23 - Prim's on a Sparse Grid
+- Day 24 - Pathfinding using Prim's MST
+- Day 25 - Run Length Encoding
 
 ##Downloading##
 **Please Note:** *This project was not about clean code, it was about producing new
