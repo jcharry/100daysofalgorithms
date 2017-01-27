@@ -26,6 +26,8 @@ See everything in one place on [this here tumblr blog](https://100daysofalgorith
 - Day 23 - Prim's on a Sparse Grid
 - Day 24 - Pathfinding using Prim's MST
 - Day 25 - Run Length Encoding
+- Day 26 - The Game of Life
+- Day 27 - Game of Life, Gosper Gun
 
 ##Downloading##
 **Please Note:** *This project was not about clean code, it was about producing new

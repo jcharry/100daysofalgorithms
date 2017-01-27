@@ -1,0 +1,20 @@
+/*
+ * styles.css
+ * Copyright (C) 2017 jamiecharry
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+body {
+    // background: #efefef;
+    // background: black;
+    background: #272727;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.cell {
+    stroke: #272727;
+    stroke-width: 4px;
+}
