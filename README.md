@@ -28,6 +28,11 @@ See everything in one place on [this here tumblr blog](https://100daysofalgorith
 - Day 25 - Run Length Encoding
 - Day 26 - The Game of Life
 - Day 27 - Game of Life, Gosper Gun
+- Day 28 - Game of Life, Backrake
+- Day 29 - Game of Life, P177 Oscillator
+- Day 30 - Factorial (Recursive)
+- Day 31 - Fibonacci (Recursive)
+- Day 32 - Fibonacci (Dynamic Programming)
 
 ##Downloading##
 **Please Note:** *This project was not about clean code, it was about producing new

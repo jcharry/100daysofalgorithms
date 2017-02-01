@@ -18,10 +18,6 @@ let svg = d3.select('body').append('svg')
 let g = svg.append('g')
     .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
-// let dataColorScale = d3.scaleLinear()
-//     .domain([0, 100])
-//     .range(['#e7e1ef', '#980043']);
-
 let Cell = function(x, y, width, state) {
     let previous = state;
     return {
