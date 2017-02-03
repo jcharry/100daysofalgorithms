@@ -1,0 +1,35 @@
+body {
+    // background: #efefef;
+    // background: black;
+    background: #2f2f2f;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+line {
+    stroke: #464646;
+    stroke-width: 2px;
+}
+
+.pre-recurse-line {
+    stroke: lightgreen;
+}
+
+.post-recurse-line {
+    stroke: lightgreen;
+}
+.post-recurse-sol {
+    stroke: green;
+}
+
+text {
+    fill: lightgrey;
+    stroke: transparent;
+    text-anchor: middle;
+}
+path {
+    fill: transparent;
+    stroke: red;
+    stroke-width: 2px;
+}

@@ -32,7 +32,9 @@ See everything in one place on [this here tumblr blog](https://100daysofalgorith
 - Day 29 - Game of Life, P177 Oscillator
 - Day 30 - Factorial (Recursive)
 - Day 31 - Fibonacci (Recursive)
-- Day 32 - Fibonacci (Dynamic Programming)
+- Day 32 - Fibonacci (Dynamic Programming - Memoized)
+- Day 33 - Fibonacci (Dynamic Programming - Bottom Up)
+- Day 34 - Fibonacci (Dynamic Programming - Bottom Up Optimized)
 
 ##Downloading##
 **Please Note:** *This project was not about clean code, it was about producing new
