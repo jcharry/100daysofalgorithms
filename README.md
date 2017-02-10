@@ -35,6 +35,12 @@ See everything in one place on [this here tumblr blog](https://100daysofalgorith
 - Day 32 - Fibonacci (Dynamic Programming - Memoized)
 - Day 33 - Fibonacci (Dynamic Programming - Bottom Up)
 - Day 34 - Fibonacci (Dynamic Programming - Bottom Up Optimized)
+- Day 35 - Peakfinding 2D
+- Day 36 - Longest Commmon Subsequence
+- Day 37 - Edit Distance
+- Day 38 - 0-1 Knapsack
+- Day 38 - Word Wrapping
+- Day 40 - Bresenham's Line Algorithm
 
 ##Downloading##
 **Please Note:** *This project was not about clean code, it was about producing new

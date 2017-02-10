@@ -1,0 +1,39 @@
+body {
+    // background: #efefef;
+    // background: black;
+    // background: darkgray;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+svg {
+    background-color: beige;
+}
+
+line {
+    stroke: #464646;
+    stroke-width: 2px;
+}
+
+.pre-recurse-line {
+    stroke: lightgreen;
+}
+
+.post-recurse-line {
+    stroke: lightgreen;
+}
+.post-recurse-sol {
+    stroke: green;
+}
+
+text {
+    fill: #4a4444;
+    stroke: transparent;
+    // text-anchor: middle;
+    // line-height: 20px;
+    font-size: 10pt;
+}
+
+.cell {
+    stroke: white;
+}

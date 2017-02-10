@@ -1,0 +1,26 @@
+body {
+    // background: #efefef;
+    // background: black;
+    // background: darkgray;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+svg {
+    // background-color: beige;
+    background-color: black;
+}
+
+text {
+    fill: #4a4444;
+    stroke: transparent;
+    text-anchor: end;
+    // line-height: 20px;
+    font-size: 20pt;
+}
+
+.cell {
+    stroke: white;
+    fill: white;
+    stroke-width: 0.5px;
+}
