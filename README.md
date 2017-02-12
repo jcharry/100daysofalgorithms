@@ -41,6 +41,9 @@ See everything in one place on [this here tumblr blog](https://100daysofalgorith
 - Day 38 - 0-1 Knapsack
 - Day 38 - Word Wrapping
 - Day 40 - Bresenham's Line Algorithm
+- Day 41 - Pattern Searching
+- Day 42 - Poisson Disk Distribution
+- Day 43 - Poisson Disk Distribution V2
 
 ##Downloading##
 **Please Note:** *This project was not about clean code, it was about producing new
