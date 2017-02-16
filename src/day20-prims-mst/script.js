@@ -62,22 +62,22 @@ function printMST(parent, n, graph) {
 
 let V = numPoints;
 function primMST(graph) {
-     let parent = []; // Array to store constructed MST
-     let key = [];   // Key values used to pick minimum weight edge in cut
-     let mstSet = [];  // To represent set of vertices not yet included in MST
+    let parent = []; // Array to store constructed MST
+    let key = [];   // Key values used to pick minimum weight edge in cut
+    let mstSet = [];  // To represent set of vertices not yet included in MST
 
-     // Initialize all keys as INFINITE
-     for (let i = 0; i < V; i++) {
+    // Initialize all keys as INFINITE
+    for (let i = 0; i < V; i++) {
         key[i] = Infinity, mstSet[i] = false;
-     }
+    }
 
-     // Always include first 1st vertex in MST.
-     key[0] = 0;     // Make key 0 so that this vertex is picked as first vertex
-     parent[0] = -1; // First node is always root of MST
+    // Always include first 1st vertex in MST.
+    key[0] = 0;     // Make key 0 so that this vertex is picked as first vertex
+    parent[0] = -1; // First node is always root of MST
 
-     // The MST will have V vertices
-     for (let count = 0; count < V-1; count++)
-     {
+    // The MST will have V vertices
+    for (let count = 0; count < V-1; count++)
+    {
         // Pick the minimum key vertex from the set of vertices
         // not yet included in MST
         let u = minKey(key, mstSet);
@@ -89,16 +89,16 @@ function primMST(graph) {
         // the picked vertex. Consider only those vertices which are not yet
         // included in MST
         for (let v = 0; v < V; v++) {
-             // actions.push({type: 'attempt', u, v, parent: parent.slice()});
-           // graph[u][v] is non zero only for adjacent vertices of m
-           // mstSet[v] is false for vertices not yet included in MST
-           // Update the key only if graph[u][v] is smaller than key[v]
-          if (graph[u][v] && mstSet[v] == false && graph[u][v] < key[v]) {
-             parent[v]  = u, key[v] = graph[u][v];
-             actions.push({type: 'success', u, v, parent: parent.slice() })
-          }
+            // actions.push({type: 'attempt', u, v, parent: parent.slice()});
+            // graph[u][v] is non zero only for adjacent vertices of m
+            // mstSet[v] is false for vertices not yet included in MST
+            // Update the key only if graph[u][v] is smaller than key[v]
+            if (graph[u][v] && mstSet[v] == false && graph[u][v] < key[v]) {
+                parent[v]  = u, key[v] = graph[u][v];
+                actions.push({type: 'success', u, v, parent: parent.slice() })
+            }
         }
-     }
+    }
 
     console.log('parent', parent);
     printMST(parent, V, graph);
@@ -146,7 +146,7 @@ function constructGraph(n) {
                     .classed('line-light', true)
                     .transition(t)
                     .style('opacity', 1)
-                    // .style('stroke-width', '2px')
+                // .style('stroke-width', '2px')
                     .attr('x1', points[i].x)
                     .attr('y1', points[i].y)
                     .attr('x2', points[j].x)

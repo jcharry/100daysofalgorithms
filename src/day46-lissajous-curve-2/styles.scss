@@ -1,0 +1,35 @@
+body {
+    // background: #efefef;
+    // background: black;
+    // background: darkgray;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+svg {
+    // background-color: beige;
+    background-color: white;
+}
+
+rect {
+    stroke: black;
+    stroke-width: 0.2px;
+    fill: none;
+}
+
+.attempt-line {
+    stroke: darkgray;
+    stroke-width: 0.2px;
+}
+
+text {
+    fill: #4a4444;
+    stroke: transparent;
+    text-anchor: end;
+    font-size: 20pt;
+}
+
+path {
+    fill: none;
+    stroke: black;
+}

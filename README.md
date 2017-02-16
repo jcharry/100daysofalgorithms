@@ -43,7 +43,11 @@ See everything in one place on [this here tumblr blog](https://100daysofalgorith
 - Day 40 - Bresenham's Line Algorithm
 - Day 41 - Pattern Searching
 - Day 42 - Poisson Disk Distribution
-- Day 43 - Poisson Disk Distribution V2
+- Day 43 - Poisson Disk Distribution 2
+- Day 44 - Poisson Disk Distribution 3
+- Day 45 - Lissajous Curve V1
+- Day 46 - Lissajous Curve V2
+- Day 47 - Cantor Set
 
 ##Downloading##
 **Please Note:** *This project was not about clean code, it was about producing new
