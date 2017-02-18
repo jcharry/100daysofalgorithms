@@ -48,6 +48,8 @@ See everything in one place on [this here tumblr blog](https://100daysofalgorith
 - Day 45 - Lissajous Curve V1
 - Day 46 - Lissajous Curve V2
 - Day 47 - Cantor Set
+- Day 48 - Koch Curve
+- Day 49 - Koch Snowflake
 
 ##Downloading##
 **Please Note:** *This project was not about clean code, it was about producing new
