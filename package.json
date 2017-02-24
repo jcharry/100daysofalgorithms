@@ -39,6 +39,7 @@
     "binary-search-tree": "^0.2.6",
     "d3": "^4.4.0",
     "node-sass": "^4.1.1",
+    "simplex-noise": "^2.3.0",
     "vector-js": "0.0.0",
     "victor": "^1.1.0"
   }

@@ -50,6 +50,11 @@ See everything in one place on [this here tumblr blog](https://100daysofalgorith
 - Day 47 - Cantor Set
 - Day 48 - Koch Curve
 - Day 49 - Koch Snowflake
+- Day 50 - Diamond Square
+- Day 51 - Isometric Perspective
+- Day 52 - Isometric Height Map
+- Day 53 - Height Map Perspective
+- Day 54 - Diamond Square vs Simplex Noise
 
 ##Downloading##
 **Please Note:** *This project was not about clean code, it was about producing new
