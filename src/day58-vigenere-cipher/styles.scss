@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+svg {
+    background-color: #c3d0e6;
+    font-family: monospace;
+}
+
+.text {
+    font-size: 40px;
+    background-color: beige;
+}
+
+.cell {
+    text-align: center;
+}
+
+.cipher-bg {
+    // fill: white;
+}
+
+.topcell, .leftcell {
+    font-size: 20px;
+}
+
+.secret, .key, .cipher {
+    font-size: 30px;
+}
+
