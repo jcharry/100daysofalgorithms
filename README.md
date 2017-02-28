@@ -55,6 +55,11 @@ See everything in one place on [this here tumblr blog](https://100daysofalgorith
 - Day 52 - Isometric Height Map
 - Day 53 - Height Map Perspective
 - Day 54 - Diamond Square vs Simplex Noise
+- Day 55 - Terrain Panning
+- Day 56 - Rot13
+- Day 57 - Rot13 V2
+- Day 58 - Vigenèr Cipher
+- Day 59 - Bitwise Shifting
 
 ##Downloading##
 **Please Note:** *This project was not about clean code, it was about producing new
