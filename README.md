@@ -62,6 +62,15 @@ See everything in one place on [this here tumblr blog](https://100daysofalgorith
 - Day 59 - Bitwise Shifting
 - Day 60 - djb2 Hash
 - Day 61 - djb2 Hash V2
+- Day 62 - djb2 Collisions
+- Day 63 - djb2 Collisions Improved
+- Day 64 - SHA
+- Day 65 - Diffie Hellman
+- Day 66 - Birthday Paradox
+- Day 67 - Bitwise OR
+- Day 68 - Bitwise AND
+- Day 69 - Bitwise XOR
+- Day 70 - Permutations
 
 ##Downloading##
 **Please Note:** *This project was not about clean code, it was about producing new
