@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+input {
+    position:absolute;
+    width: 800px;
+    left: 50px;
+    top: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    // background-color: #c3d0e6;
+    text-align: center;
+    font-size: 24pt;
+}
+
+.svg-group {
+    isolation: isolate;
+}
+
+circle {
+    mix-blend-mode: screen;
+}
+svg {
+    // background-color: #c3d0e6;
+    background-color: #0c0c0c;
+    font-family: monospace;
+}
+
+text {
+    font-size: 24px;
+    fill: white;
+    text-anchor: middle;
+}

@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+input {
+    position:absolute;
+    width: 800px;
+    left: 50px;
+    top: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    // background-color: #c3d0e6;
+    text-align: center;
+    font-size: 24pt;
+}
+
+.svg-group {
+    // isolation: isolate;
+    // mix-blend-mode: screen;
+}
+
+.bg {
+    stroke: darkgray;
+    fill: transparent;
+}
+
+svg {
+    // background-color: #c3d0e6;
+    background-color: #ffecd9;
+    font-family: Futura;
+}
+
+path {
+    stroke: #9acc00;
+    fill: none;
+    stroke-width: 3px;
+}
+
+.tick text {
+    font-size: 12px;
+}
+
+.axis-label {
+    font-size: 14px;
+    text-anchor: middle;
+}
+
+text {
+    font-size: 24px;
+    fill: black;
+    text-anchor: middle;
+}
