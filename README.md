@@ -72,6 +72,13 @@ See everything in one place on [this here tumblr blog](https://100daysofalgorith
 - Day 69 - Bitwise XOR
 - Day 70 - Permutations
 - Day 71 - Knight's Tour
+- Day 72 - N-Queens
+- Day 73 - Tower of Hanoi
+- Day 74 - Quadtree
+- Day 75 - Quadtree V2
+- Day 76 - k-d Tree
+- Day 77 - Voronoi
+- Day 78 - Voronoi Improved
 
 ##Downloading##
 **Please Note:** *This project was not about clean code, it was about producing new
