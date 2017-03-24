@@ -79,6 +79,11 @@ See everything in one place on [this here tumblr blog](https://100daysofalgorith
 - Day 76 - k-d Tree
 - Day 77 - Voronoi
 - Day 78 - Voronoi Improved
+- Day 79 - Voronoi V3
+- Day 80 - Palindrome
+- Day 81 - KMP Pattern Searching
+- Day 82 - KMP V2
+- Day 83 - KMP V3
 
 ##Downloading##
 **Please Note:** *This project was not about clean code, it was about producing new
