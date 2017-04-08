@@ -84,8 +84,23 @@ See everything in one place on [this here tumblr blog](https://100daysofalgorith
 - Day 81 - KMP Pattern Searching
 - Day 82 - KMP V2
 - Day 83 - KMP V3
+- Day 84 - Fisher-Yates Shuffle
+- Day 85 - Fisher Yates V2
+- Day 86 - Ode to Fizzbuzz
+- Day 87 - Stable Marriage
+- Day 88 - Chaos Game
+- Day 89 - Chaos Game V2
+- Day 90 - Chaos Game V3
+- Day 91 - Matched Brackets
+- Day 92 - Job Scheduling
+- Day 93 - 100 Doors
+- Day 94 - Linked List
+- Day 95 - Doubly Linked List
+- Day 96 - DOM Tree
+- Day 97 - Next Smallest
+- Day 98 - Anagrams
 
-##Downloading##
+## Downloading ##
 **Please Note:** *This project was not about clean code, it was about producing new
 work everyday.  As a result, little time was spent on code cleanup and
 optimization.*
@@ -108,7 +123,15 @@ If you get an error, install `http-server` with
 
 Navigate to `localhost:1234` in a browser, and navigate to the build folder.
 
-##To Edit##
+## To Edit ##
+### NOTE: ###
+After day 97 - webpack started to consume too much memory if running
+in --watch mode.  The reason is it's watching almost 100 different builds at
+once.  To work around this, you might have to move some of the source files out
+of the src/ folder, into another directory temporarily.  Or just delete the
+ones you're not interested in.  Didn't see this one coming, but since I'm
+basically done at this point - I don't see a reason to go back and reconfigure
+webpack to work for all 100 days at the same time.
 Instead of running ```$ npm run build``` above, run
 ```$ npm run dev```, start the server in a new terminal window, and navigate to
 localhost:1234.
