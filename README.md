@@ -99,6 +99,8 @@ See everything in one place on [this here tumblr blog](https://100daysofalgorith
 - Day 96 - DOM Tree
 - Day 97 - Next Smallest
 - Day 98 - Anagrams
+- Day 99 - Flatten Array
+- Day 100 - Linked List Cycle
 
 ## Downloading ##
 **Please Note:** *This project was not about clean code, it was about producing new
